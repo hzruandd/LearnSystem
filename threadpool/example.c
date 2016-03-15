@@ -1,6 +1,8 @@
 /* 
  * We create a pool of 4 threads and then add 40 tasks to the pool(20 task1 
  * functions and 20 task2 functions). task1 and task2 simply print which thread is running them.
+ ***** make it by:
+ * gcc example.c thpool.c -D THPOOL_DEBUG -pthread -o example
  * */
 
 #include <stdio.h>
